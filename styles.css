@@ -150,6 +150,9 @@ svg {
     .navlinks {
         gap: 5px;
     }
+    .logo {
+        width: 90px;
+    }
 }
 
 @media (max-width: 530px) {
@@ -174,17 +177,26 @@ svg {
     svg {
         opacity:1;
     }
+    .logo {
+        width: 90px;
+    }
 }
 
 @media (max-width: 500px) {
     .splittext {
         font-size: 100px;
         text-align: center;
-    }   
+    }  
+    .logo {
+        width: 90px;
+    }
 }
 
 @media (max-width: 420px) {
     .splittext {
         font-size: 100px;
-    }   
+    }  
+    .logo {
+        width: 90px;
+    }
 }
