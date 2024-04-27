@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bee Creative</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="burger">
+            <svg>
+                <line x1="5" y1="15" x2="45" y2="15" stroke="black" stroke-width="3"></line>
+                <line x1="5" y1="25" x2="45" y2="25" stroke="black" stroke-width="3"></line>
+                <line x1="5" y1="35" x2="45" y2="35" stroke="black" stroke-width="3"></line>
+            </svg>
+        </div>
+        <img src="beelogo.png" class="logo">
+        <ul class="navlinks">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1 class="splittext">Bee Creative</h1>
+    </div>
+    
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>       
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+
+    <script>
+
+    let mytext = new SplitType(".splittext");
+
+    let tl = gsap.timeline();
+
+    tl.to(".char", {
+        duration:1,
+        rotate:360
+    })
+    tl.to(".char",{
+        duration:1,
+        rotate:0,
+    })
+
+
+
+  
+
+</script>
+</body>
+</html>
