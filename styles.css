@@ -76,7 +76,7 @@ svg {
     font-family: "caviar dreams";
 }
 
-@font-face {font-family: "caviar dreams"; 
+@font-face {font-family: "caviar dreams", sans-serif; 
             src: url(CaviarDreams.ttf); 
             font-style: normal; font-weight: 600;}
 
